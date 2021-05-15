@@ -1,0 +1,61 @@
+#list {
+  padding-top: 20px;
+}
+
+#days-list,
+#months-list {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: wrap;
+  border-radius: 5px;
+  border: 1px solid rgba(71, 71, 71, 0.2);
+  width: 600px;
+  justify-content: center;
+}
+
+#days-list-block,
+#months-list-block {
+  width: 10%;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#days-list-block-item:hover, #months-list-block-item:hover,
+#days-list-block-item:active, #months-list-block-item:active,
+#days-list-block-item:focus, #months-list-block-item:focus{
+    cursor: pointer;
+}
+
+#years-list {
+  border-radius: 5px;
+  border: 1px solid rgba(71, 71, 71, 0.2);
+  text-align: center;
+  width: 600px;
+  padding: 25px 0;
+}
+
+#years-left,
+#years-right,
+#year-list {
+  font-weight: bold;
+  margin: 0 25px;
+}
+
+#years-left{
+    color: #6495ED;
+}
+
+#years-right{
+    color: #FFBF00;
+}
+
+#years-left:hover, #years-right:hover,
+#years-left:active, #years-right:active,
+#years-left:focus, #years-right:focus{
+    cursor: pointer;
+}
+
+#output-block{
+    text-align: center;
+}
